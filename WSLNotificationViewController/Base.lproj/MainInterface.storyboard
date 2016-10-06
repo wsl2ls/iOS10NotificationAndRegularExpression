@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="M4Y-Lb-cyx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notification View Controller-->
+        <scene sceneID="cwh-vc-ff4">
+            <objects>
+                <viewController id="M4Y-Lb-cyx" userLabel="Notification View Controller" customClass="NotificationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ft6-oW-KC0"/>
+                        <viewControllerLayoutGuide type="bottom" id="FKl-LY-JtV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="GcN-lo-r42">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="SDc-qb-v7A"/>
+                                    <constraint firstAttribute="height" constant="100" id="rMK-qF-2LU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iNP-AN-TXp">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="6YA-yg-g2a"/>
+                                    <constraint firstAttribute="width" constant="129" id="lBY-kz-jFX"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.45882353186607361" green="0.74901962280273438" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="iNP-AN-TXp" secondAttribute="bottom" id="87W-Sl-nxH"/>
+                            <constraint firstItem="FKl-LY-JtV" firstAttribute="top" secondItem="GcN-lo-r42" secondAttribute="bottom" id="94t-2i-tcU"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="leading" secondItem="S3S-Oj-5AN" secondAttribute="leading" constant="8" id="AxQ-UM-sja"/>
+                            <constraint firstItem="iNP-AN-TXp" firstAttribute="leading" secondItem="GcN-lo-r42" secondAttribute="trailing" constant="51" id="ERj-tk-vTc"/>
+                            <constraint firstItem="GcN-lo-r42" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="Lqs-HT-aVG"/>
+                            <constraint firstItem="iNP-AN-TXp" firstAttribute="leading" secondItem="GcN-lo-r42" secondAttribute="trailing" constant="51" id="Ya4-Gr-30m"/>
+                            <constraint firstItem="iNP-AN-TXp" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" id="gXQ-cO-Q93"/>
+                            <constraint firstAttribute="trailing" secondItem="iNP-AN-TXp" secondAttribute="trailing" id="xZW-M7-Igr"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="100"/>
+                    <connections>
+                        <outlet property="imageView" destination="iNP-AN-TXp" id="07m-aL-FVd"/>
+                        <outlet property="label" destination="GcN-lo-r42" id="lpW-cU-7IG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="25.600000000000001" y="36.881559220389811"/>
+        </scene>
+    </scenes>
+</document>

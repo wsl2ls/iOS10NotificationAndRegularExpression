@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3114F72D1DA22552009AC72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114F72C1DA22552009AC72E /* main.m */; };
+		3114F7301DA22552009AC72E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114F72F1DA22552009AC72E /* AppDelegate.m */; };
+		3114F7331DA22552009AC72E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114F7321DA22552009AC72E /* ViewController.m */; };
+		3114F7361DA22552009AC72E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3114F7341DA22552009AC72E /* Main.storyboard */; };
+		3114F7381DA22552009AC72E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3114F7371DA22552009AC72E /* Assets.xcassets */; };
+		3114F73B1DA22552009AC72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3114F7391DA22552009AC72E /* LaunchScreen.storyboard */; };
+		3114F7461DA22552009AC72E /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114F7451DA22552009AC72E /* _____Tests.m */; };
+		3114F7511DA22552009AC72E /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3114F7501DA22552009AC72E /* _____UITests.m */; };
+		314BE48E1DA5ED1A00495187 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318D2C151DA4A6FA00FE674B /* UserNotifications.framework */; };
+		314BE4901DA5ED1A00495187 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 314BE48F1DA5ED1A00495187 /* UserNotificationsUI.framework */; };
+		314BE4941DA5ED1A00495187 /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 314BE4931DA5ED1A00495187 /* NotificationViewController.m */; };
+		314BE4971DA5ED1A00495187 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 314BE4951DA5ED1A00495187 /* MainInterface.storyboard */; };
+		314BE49B1DA5ED1A00495187 /* WSLNotificationViewController.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 314BE48D1DA5ED1A00495187 /* WSLNotificationViewController.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		318D2C161DA4A6FA00FE674B /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 318D2C151DA4A6FA00FE674B /* UserNotifications.framework */; };
+		318D2C671DA4D59E00FE674B /* attachment.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 318D2C661DA4D59E00FE674B /* attachment.jpeg */; };
+		318D2C681DA4D59E00FE674B /* attachment.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 318D2C661DA4D59E00FE674B /* attachment.jpeg */; };
+		318D2C6A1DA4D63B00FE674B /* wang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 318D2C691DA4D63B00FE674B /* wang.jpeg */; };
+		318D2C6B1DA4D63B00FE674B /* wang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 318D2C691DA4D63B00FE674B /* wang.jpeg */; };
+		318D2C701DA4DA2800FE674B /* See You Again.m4r in Resources */ = {isa = PBXBuildFile; fileRef = 318D2C6F1DA4D9DB00FE674B /* See You Again.m4r */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3114F7421DA22552009AC72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3114F7201DA22552009AC72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3114F7271DA22552009AC72E;
+			remoteInfo = "正则表达式";
+		};
+		3114F74D1DA22552009AC72E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3114F7201DA22552009AC72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3114F7271DA22552009AC72E;
+			remoteInfo = "正则表达式";
+		};
+		314BE4991DA5ED1A00495187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3114F7201DA22552009AC72E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 314BE48C1DA5ED1A00495187;
+			remoteInfo = WSLNotificationViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		314BE49F1DA5ED1A00495187 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				314BE49B1DA5ED1A00495187 /* WSLNotificationViewController.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3114F7281DA22552009AC72E /* 正则表达式.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "正则表达式.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3114F72C1DA22552009AC72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3114F72E1DA22552009AC72E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3114F72F1DA22552009AC72E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3114F7311DA22552009AC72E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3114F7321DA22552009AC72E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3114F7351DA22552009AC72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3114F7371DA22552009AC72E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3114F73A1DA22552009AC72E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3114F73C1DA22552009AC72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3114F7411DA22552009AC72E /* 正则表达式Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "正则表达式Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3114F7451DA22552009AC72E /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		3114F7471DA22552009AC72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3114F74C1DA22552009AC72E /* 正则表达式UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "正则表达式UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3114F7501DA22552009AC72E /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		3114F7521DA22552009AC72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		314BE48D1DA5ED1A00495187 /* WSLNotificationViewController.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WSLNotificationViewController.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		314BE48F1DA5ED1A00495187 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+		314BE4921DA5ED1A00495187 /* NotificationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		314BE4931DA5ED1A00495187 /* NotificationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		314BE4961DA5ED1A00495187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		314BE4981DA5ED1A00495187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		318D2C151DA4A6FA00FE674B /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		318D2C661DA4D59E00FE674B /* attachment.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = attachment.jpeg; sourceTree = "<group>"; };
+		318D2C691DA4D63B00FE674B /* wang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wang.jpeg; sourceTree = "<group>"; };
+		318D2C6F1DA4D9DB00FE674B /* See You Again.m4r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "See You Again.m4r"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3114F7251DA22552009AC72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318D2C161DA4A6FA00FE674B /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3114F73E1DA22552009AC72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3114F7491DA22552009AC72E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314BE48A1DA5ED1A00495187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314BE4901DA5ED1A00495187 /* UserNotificationsUI.framework in Frameworks */,
+				314BE48E1DA5ED1A00495187 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3114F71F1DA22552009AC72E = {
+			isa = PBXGroup;
+			children = (
+				3114F72A1DA22552009AC72E /* 正则表达式 */,
+				3114F7441DA22552009AC72E /* 正则表达式Tests */,
+				3114F74F1DA22552009AC72E /* 正则表达式UITests */,
+				314BE4911DA5ED1A00495187 /* WSLNotificationViewController */,
+				3114F7291DA22552009AC72E /* Products */,
+				318D2C141DA4A6FA00FE674B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3114F7291DA22552009AC72E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3114F7281DA22552009AC72E /* 正则表达式.app */,
+				3114F7411DA22552009AC72E /* 正则表达式Tests.xctest */,
+				3114F74C1DA22552009AC72E /* 正则表达式UITests.xctest */,
+				314BE48D1DA5ED1A00495187 /* WSLNotificationViewController.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3114F72A1DA22552009AC72E /* 正则表达式 */ = {
+			isa = PBXGroup;
+			children = (
+				318D2C661DA4D59E00FE674B /* attachment.jpeg */,
+				318D2C691DA4D63B00FE674B /* wang.jpeg */,
+				318D2C6F1DA4D9DB00FE674B /* See You Again.m4r */,
+				3114F72E1DA22552009AC72E /* AppDelegate.h */,
+				3114F72F1DA22552009AC72E /* AppDelegate.m */,
+				3114F7311DA22552009AC72E /* ViewController.h */,
+				3114F7321DA22552009AC72E /* ViewController.m */,
+				3114F7341DA22552009AC72E /* Main.storyboard */,
+				3114F7371DA22552009AC72E /* Assets.xcassets */,
+				3114F7391DA22552009AC72E /* LaunchScreen.storyboard */,
+				3114F73C1DA22552009AC72E /* Info.plist */,
+				3114F72B1DA22552009AC72E /* Supporting Files */,
+			);
+			path = "正则表达式";
+			sourceTree = "<group>";
+		};
+		3114F72B1DA22552009AC72E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3114F72C1DA22552009AC72E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3114F7441DA22552009AC72E /* 正则表达式Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3114F7451DA22552009AC72E /* _____Tests.m */,
+				3114F7471DA22552009AC72E /* Info.plist */,
+			);
+			path = "正则表达式Tests";
+			sourceTree = "<group>";
+		};
+		3114F74F1DA22552009AC72E /* 正则表达式UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3114F7501DA22552009AC72E /* _____UITests.m */,
+				3114F7521DA22552009AC72E /* Info.plist */,
+			);
+			path = "正则表达式UITests";
+			sourceTree = "<group>";
+		};
+		314BE4911DA5ED1A00495187 /* WSLNotificationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				314BE4921DA5ED1A00495187 /* NotificationViewController.h */,
+				314BE4931DA5ED1A00495187 /* NotificationViewController.m */,
+				314BE4951DA5ED1A00495187 /* MainInterface.storyboard */,
+				314BE4981DA5ED1A00495187 /* Info.plist */,
+			);
+			path = WSLNotificationViewController;
+			sourceTree = "<group>";
+		};
+		318D2C141DA4A6FA00FE674B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				318D2C151DA4A6FA00FE674B /* UserNotifications.framework */,
+				314BE48F1DA5ED1A00495187 /* UserNotificationsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3114F7271DA22552009AC72E /* 正则表达式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3114F7551DA22552009AC72E /* Build configuration list for PBXNativeTarget "正则表达式" */;
+			buildPhases = (
+				3114F7241DA22552009AC72E /* Sources */,
+				3114F7251DA22552009AC72E /* Frameworks */,
+				3114F7261DA22552009AC72E /* Resources */,
+				314BE49F1DA5ED1A00495187 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				314BE49A1DA5ED1A00495187 /* PBXTargetDependency */,
+			);
+			name = "正则表达式";
+			productName = "正则表达式";
+			productReference = 3114F7281DA22552009AC72E /* 正则表达式.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3114F7401DA22552009AC72E /* 正则表达式Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3114F7581DA22552009AC72E /* Build configuration list for PBXNativeTarget "正则表达式Tests" */;
+			buildPhases = (
+				3114F73D1DA22552009AC72E /* Sources */,
+				3114F73E1DA22552009AC72E /* Frameworks */,
+				3114F73F1DA22552009AC72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3114F7431DA22552009AC72E /* PBXTargetDependency */,
+			);
+			name = "正则表达式Tests";
+			productName = "正则表达式Tests";
+			productReference = 3114F7411DA22552009AC72E /* 正则表达式Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3114F74B1DA22552009AC72E /* 正则表达式UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3114F75B1DA22552009AC72E /* Build configuration list for PBXNativeTarget "正则表达式UITests" */;
+			buildPhases = (
+				3114F7481DA22552009AC72E /* Sources */,
+				3114F7491DA22552009AC72E /* Frameworks */,
+				3114F74A1DA22552009AC72E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3114F74E1DA22552009AC72E /* PBXTargetDependency */,
+			);
+			name = "正则表达式UITests";
+			productName = "正则表达式UITests";
+			productReference = 3114F74C1DA22552009AC72E /* 正则表达式UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		314BE48C1DA5ED1A00495187 /* WSLNotificationViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 314BE49E1DA5ED1A00495187 /* Build configuration list for PBXNativeTarget "WSLNotificationViewController" */;
+			buildPhases = (
+				314BE4891DA5ED1A00495187 /* Sources */,
+				314BE48A1DA5ED1A00495187 /* Frameworks */,
+				314BE48B1DA5ED1A00495187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSLNotificationViewController;
+			productName = WSLNotificationViewController;
+			productReference = 314BE48D1DA5ED1A00495187 /* WSLNotificationViewController.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3114F7201DA22552009AC72E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "http://www.jianshu.com/users/e15d1f644bea";
+				TargetAttributes = {
+					3114F7271DA22552009AC72E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W47EBNCE5G;
+						ProvisioningStyle = Automatic;
+					};
+					3114F7401DA22552009AC72E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3114F7271DA22552009AC72E;
+					};
+					3114F74B1DA22552009AC72E = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3114F7271DA22552009AC72E;
+					};
+					314BE48C1DA5ED1A00495187 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = W47EBNCE5G;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3114F7231DA22552009AC72E /* Build configuration list for PBXProject "正则表达式" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3114F71F1DA22552009AC72E;
+			productRefGroup = 3114F7291DA22552009AC72E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3114F7271DA22552009AC72E /* 正则表达式 */,
+				3114F7401DA22552009AC72E /* 正则表达式Tests */,
+				3114F74B1DA22552009AC72E /* 正则表达式UITests */,
+				314BE48C1DA5ED1A00495187 /* WSLNotificationViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3114F7261DA22552009AC72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318D2C701DA4DA2800FE674B /* See You Again.m4r in Resources */,
+				3114F73B1DA22552009AC72E /* LaunchScreen.storyboard in Resources */,
+				3114F7381DA22552009AC72E /* Assets.xcassets in Resources */,
+				318D2C6A1DA4D63B00FE674B /* wang.jpeg in Resources */,
+				3114F7361DA22552009AC72E /* Main.storyboard in Resources */,
+				318D2C671DA4D59E00FE674B /* attachment.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3114F73F1DA22552009AC72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				318D2C6B1DA4D63B00FE674B /* wang.jpeg in Resources */,
+				318D2C681DA4D59E00FE674B /* attachment.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3114F74A1DA22552009AC72E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314BE48B1DA5ED1A00495187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314BE4971DA5ED1A00495187 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3114F7241DA22552009AC72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3114F7331DA22552009AC72E /* ViewController.m in Sources */,
+				3114F7301DA22552009AC72E /* AppDelegate.m in Sources */,
+				3114F72D1DA22552009AC72E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3114F73D1DA22552009AC72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3114F7461DA22552009AC72E /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3114F7481DA22552009AC72E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3114F7511DA22552009AC72E /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		314BE4891DA5ED1A00495187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				314BE4941DA5ED1A00495187 /* NotificationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3114F7431DA22552009AC72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3114F7271DA22552009AC72E /* 正则表达式 */;
+			targetProxy = 3114F7421DA22552009AC72E /* PBXContainerItemProxy */;
+		};
+		3114F74E1DA22552009AC72E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3114F7271DA22552009AC72E /* 正则表达式 */;
+			targetProxy = 3114F74D1DA22552009AC72E /* PBXContainerItemProxy */;
+		};
+		314BE49A1DA5ED1A00495187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 314BE48C1DA5ED1A00495187 /* WSLNotificationViewController */;
+			targetProxy = 314BE4991DA5ED1A00495187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3114F7341DA22552009AC72E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3114F7351DA22552009AC72E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3114F7391DA22552009AC72E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3114F73A1DA22552009AC72E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		314BE4951DA5ED1A00495187 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				314BE4961DA5ED1A00495187 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3114F7531DA22552009AC72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3114F7541DA22552009AC72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3114F7561DA22552009AC72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W47EBNCE5G;
+				INFOPLIST_FILE = "正则表达式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3114F7571DA22552009AC72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W47EBNCE5G;
+				INFOPLIST_FILE = "正则表达式/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3114F7591DA22552009AC72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "正则表达式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/正则表达式.app/正则表达式";
+			};
+			name = Debug;
+		};
+		3114F75A1DA22552009AC72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "正则表达式Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/正则表达式.app/正则表达式";
+			};
+			name = Release;
+		};
+		3114F75C1DA22552009AC72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "正则表达式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "正则表达式";
+			};
+			name = Debug;
+		};
+		3114F75D1DA22552009AC72E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "正则表达式UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "正则表达式";
+			};
+			name = Release;
+		};
+		314BE49C1DA5ED1A00495187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W47EBNCE5G;
+				INFOPLIST_FILE = WSLNotificationViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----.WSLNotificationViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		314BE49D1DA5ED1A00495187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W47EBNCE5G;
+				INFOPLIST_FILE = WSLNotificationViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chinaDaily.-----.WSLNotificationViewController";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3114F7231DA22552009AC72E /* Build configuration list for PBXProject "正则表达式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114F7531DA22552009AC72E /* Debug */,
+				3114F7541DA22552009AC72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3114F7551DA22552009AC72E /* Build configuration list for PBXNativeTarget "正则表达式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114F7561DA22552009AC72E /* Debug */,
+				3114F7571DA22552009AC72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3114F7581DA22552009AC72E /* Build configuration list for PBXNativeTarget "正则表达式Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114F7591DA22552009AC72E /* Debug */,
+				3114F75A1DA22552009AC72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3114F75B1DA22552009AC72E /* Build configuration list for PBXNativeTarget "正则表达式UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114F75C1DA22552009AC72E /* Debug */,
+				3114F75D1DA22552009AC72E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		314BE49E1DA5ED1A00495187 /* Build configuration list for PBXNativeTarget "WSLNotificationViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				314BE49C1DA5ED1A00495187 /* Debug */,
+				314BE49D1DA5ED1A00495187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3114F7201DA22552009AC72E /* Project object */;
+}
